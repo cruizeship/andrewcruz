@@ -44,6 +44,7 @@
   --bs-dark: #212529;
   --bs-primary-rgb: 30, 48, 243;
   --bs-secondary-rgb: 226, 30, 128;
+  --bs-tridary-rgb: 111, 66, 193;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -8191,6 +8192,11 @@ textarea.form-control-lg {
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-tridary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-tridary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-success {
