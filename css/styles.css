@@ -74,8 +74,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1e30f3;
-  --bs-link-hover-color: #1826c2;
+  /*--bs-link-color: #1e30f3;
+  --bs-link-hover-color: #1826c2;*/
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
 }
@@ -11737,4 +11737,16 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+a:hover .hover-card {
+  background-color: var(--bs-gray-100) !important;
+}
+
+a:hover .img-fluid {
+  filter: blur(1px) !important;
 }
